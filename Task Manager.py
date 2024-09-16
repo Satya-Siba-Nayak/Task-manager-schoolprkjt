@@ -3,7 +3,7 @@ import pickle
 from enum import Enum
 import pandas as pd
 from datetime import datetime, timedelta
-import os #not necessary on server
+import os #not necessary on servers
 import logging
 
 logging.basicConfig(filename='task_manager_logs.txt', level=logging.INFO)
